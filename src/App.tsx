@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import { Header } from './components/Header'
 import { Products } from './components/Products'
-import { Footer } from './components/Footer'
+//import { Footer } from './components/Footer'
 import { Cart } from './components/Cart'
 import './app.module.scss'
 
@@ -21,7 +21,7 @@ function App() {
             element={<Cart />}
           />
         </Routes>
-      </main>
+      </main>	 
     </BrowserRouter>
   )
 }
