@@ -84,5 +84,5 @@ export const Products: FunctionComponent = () => {
         ))}
       </div>
     </section>
-  )
+  );
 }

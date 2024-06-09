@@ -1,4 +1,3 @@
-
 import { FunctionComponent } from 'react'
 import { useNavigate } from 'react-router-dom';
 
@@ -22,5 +21,5 @@ export const CartWidget: FunctionComponent<Props> = ({ productsCount }) => {
       <span className={classes.productsCount}>{productsCount}</span>
       <img src={ShoppingCart} className={classes.ShoppingCar} alt="Go to Cart"/>
     </button>
-  )
+  );
 }

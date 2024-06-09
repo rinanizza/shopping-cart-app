@@ -62,5 +62,5 @@ export const Cart: FunctionComponent = () => {
       </div>
       <TotalPrice amount={totalPrice} />
     </section>
-  )
+  );
 }

@@ -35,5 +35,5 @@ export const Footer: FunctionComponent = () => {
         </li>
       </ul>
     </footer>
-  )
+  );
 }
